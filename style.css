@@ -1,0 +1,47 @@
+h1 {
+    color:yellow;
+    margin: 12px;
+    padding: 12px;
+}
+* {
+    border:solid;
+}
+.header{
+    background-color:red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-shrink: 3;
+
+}
+body{
+
+    background-color: rgb(216,207,54);
+
+}
+a:link{
+    color: black;
+}
+a:visited{
+    color: aqua;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 3;
+    flex-wrap: wrap-reverse;
+
+}
+.item{
+   /* position : absolute;
+    top:50%; left:50%;
+   transform: translate(-50%,-50%);*/
+}
+.item:hover img{
+    opacity: 0.34;
+}
